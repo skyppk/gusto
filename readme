@@ -1,0 +1,10 @@
+frist thing is create a function that need input the string array,
+frist thing need to check the constraints in the function
+i don't know words[i] consists of lowercase English letters is a checking or just prefer value
+if it is checking can add regex checking inside words.every(word => 1 <= word.length && word.length <= 100)
+such as the regex is /[a-z]/ then use regex.test(word)
+after all constraints the should loop the string array to get every word for compare
+i change the sting to an array for using array method compare two array
+if match char then add to new string
+then use the new string to compare next array
+and do it recursive
